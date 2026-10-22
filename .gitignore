@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+*.log
+*.zip
+reports/
+output/
+snapshot*.json
+*audit*.json
+.agents/
+.claude/
+skills-lock.json

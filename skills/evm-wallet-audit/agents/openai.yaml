@@ -1,0 +1,4 @@
+interface:
+  display_name: "EVM Wallet Audit"
+  short_description: "Read-only EVM inventory with evidence and next steps"
+  default_prompt: "Use $evm-wallet-audit to inspect these public EVM addresses and report assets, protocol positions, evidence, gaps, and recommended next steps in my language."
