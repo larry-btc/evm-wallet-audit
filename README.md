@@ -97,7 +97,7 @@ npm run check
 
 No `npm install` is necessary. This runs offline regression tests and local release checks for metadata, bundled files, bilingual links, synthetic address fixtures, private-path hygiene, and read-only RPC method usage. It is a focused check, not a complete secret scanner or security certification. [Behavior cases](tests/behavior-cases.md) cover agent responses that code tests alone cannot prove.
 
-The local checks were run on macOS with Node.js 25.8.2 and curl 8.7.1. Offline CI targets Node 22/24 on Ubuntu/macOS; see [GitHub Actions](https://github.com/larry-btc/evm-wallet-audit/actions) for current results. Windows operation and end-to-end installation in other clients remain unverified.
+The local checks were run on macOS with Node.js 25.8.2 and curl 8.7.1. A [CI template](docs/ci-checks.example.yml) targets Node 22/24 on Ubuntu/macOS. CI is not active: a maintainer with workflow permissions can place the template at `.github/workflows/checks.yml`. Windows operation, remote CI execution, and end-to-end installation in other clients remain unverified.
 
 - [Contribute / 贡献](CONTRIBUTING.md)
 - [Changes / 变更](CHANGELOG.md)

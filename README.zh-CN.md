@@ -97,7 +97,7 @@ npm run check
 
 无需 `npm install`。检查会运行离线回归测试，并验证元信息、必要文件、双语链接、合成地址夹具、私人路径和只读 RPC 方法。这是有限的发布检查，不是完整密钥扫描器或安全认证。[行为用例](tests/behavior-cases.md)覆盖仅靠代码测试不能证明的聊天表现。
 
-本地检查环境为 macOS、Node.js 25.8.2、curl 8.7.1。离线 CI 覆盖目标为 Ubuntu/macOS、Node 22/24，实时结果见 [GitHub Actions](https://github.com/larry-btc/evm-wallet-audit/actions)。Windows 和其他客户端的完整安装体验尚未验证。
+本地检查环境为 macOS、Node.js 25.8.2、curl 8.7.1。[CI 模板](docs/ci-checks.example.yml) 的覆盖目标为 Ubuntu/macOS、Node 22/24，目前尚未启用；有 workflow 权限的维护者可将其放到 `.github/workflows/checks.yml`。Windows、远端 CI 执行和其他客户端的完整安装体验尚未验证。
 
 - [贡献方式](CONTRIBUTING.md)
 - [变更记录](CHANGELOG.md)

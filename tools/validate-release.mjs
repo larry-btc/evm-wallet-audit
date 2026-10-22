@@ -8,7 +8,7 @@ const skill = resolve(root, 'skills/evm-wallet-audit');
 const errors = [];
 const expect = (condition, message) => { if (!condition) errors.push(message); };
 const required = ['README.md', 'README.zh-CN.md', 'LICENSE', 'CONTRIBUTING.md', 'SECURITY.md',
-  'package.json', '.gitignore', '.github/workflows/checks.yml', 'examples/sample-report.md',
+  'package.json', '.gitignore', 'docs/ci-checks.example.yml', 'examples/sample-report.md',
   'tests/behavior-cases.md', 'skills/evm-wallet-audit/SKILL.md', 'skills/evm-wallet-audit/SKILL.zh-CN.md',
   'skills/evm-wallet-audit/LICENSE.txt', 'skills/evm-wallet-audit/agents/openai.yaml'];
 const ignored = new Set(['.git', 'node_modules', '.agents', '.claude']);
